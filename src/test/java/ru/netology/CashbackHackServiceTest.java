@@ -9,6 +9,7 @@ public class CashbackHackServiceTest {
     public void AmountLessThen1000Test() {
         Assert.assertEquals(cashbackService.remain(900), 100);
     }
+
     @org.testng.annotations.Test
     public void AmountIsNull() {
         Assert.assertEquals(cashbackService.remain(0), 1000);
