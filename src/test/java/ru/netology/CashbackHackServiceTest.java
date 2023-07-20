@@ -9,6 +9,7 @@ public class CashbackHackServiceTest {
     public void AmountLessThen1000Test() {
         Assert.assertEquals(100, cashbackService.remain(900));
     }
+
     @org.junit.Test
     public void AmountIsNull() {
         Assert.assertEquals(1000, cashbackService.remain(0));
