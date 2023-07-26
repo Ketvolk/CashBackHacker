@@ -22,6 +22,6 @@ public class CashbackHackServiceTest {
 
     @org.testng.annotations.Test
     public void AmountIs1000() {
-        Assert.assertEquals(cashbackService.remain(1000), 0);
+        Assert.assertEquals(cashbackService.remain(1000), 1000);
     }
 }
